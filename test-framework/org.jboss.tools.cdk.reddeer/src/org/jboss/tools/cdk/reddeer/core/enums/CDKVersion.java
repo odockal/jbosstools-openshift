@@ -64,7 +64,10 @@ public enum CDKVersion {
 	CRC150 (CDKServerAdapterType.CRC, "1.5.0", CDKLabel.Server.CRC_SERVER_NAME, "crc-" + CDKRuntimeOS.get().getRuntimeFullName() + "-1.5.0" + getArch()),
 	CRC160 (CDKServerAdapterType.CRC, "1.6.0", CDKLabel.Server.CRC_SERVER_NAME, "crc-" + CDKRuntimeOS.get().getRuntimeFullName() + "-1.6.0" + getArch()),	
 	CRC170 (CDKServerAdapterType.CRC, "1.7.0", CDKLabel.Server.CRC_SERVER_NAME, "crc-" + CDKRuntimeOS.get().getRuntimeFullName() + "-1.7.0" + getArch()),
-	CRC180 (CDKServerAdapterType.CRC, "1.8.0", CDKLabel.Server.CRC_SERVER_NAME, "crc-" + CDKRuntimeOS.get().getRuntimeFullName() + "-1.8.0" + getArch());
+	CRC180 (CDKServerAdapterType.CRC, "1.8.0", CDKLabel.Server.CRC_SERVER_NAME, "crc-" + CDKRuntimeOS.get().getRuntimeFullName() + "-1.8.0" + getArch()),
+	CRC190 (CDKServerAdapterType.CRC, "1.9.0", CDKLabel.Server.CRC_SERVER_NAME, "crc-" + CDKRuntimeOS.get().getRuntimeFullName() + "-1.9.0" + getArch()),	
+	CRC1100 (CDKServerAdapterType.CRC, "1.10.0", CDKLabel.Server.CRC_SERVER_NAME, "crc-" + CDKRuntimeOS.get().getRuntimeFullName() + "-1.10.0" + getArch()),
+	CRC1110 (CDKServerAdapterType.CRC, "1.11.0", CDKLabel.Server.CRC_SERVER_NAME, "crc-" + CDKRuntimeOS.get().getRuntimeFullName() + "-1.11.0" + getArch());
 
 	
 	private final CDKServerAdapterType type;
